@@ -55,7 +55,7 @@ class Trading extends Engine.Scene {
 class Victory extends Engine.Scene {
     setup() {
         this.engine.setTitle("Victory");
-        this.engine.addAction("replay");
+        this.engine.addAction("Replay");
         this.engine.show("Noice! Play again?");
     }
 
